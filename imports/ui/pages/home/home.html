@@ -1,0 +1,11 @@
+<template name="home">
+	<section class="section-products">
+		<div class="container">
+			<div class="row">
+				{{#each Products}}
+				{{>post id=_id productName=productName productPrice=productPrice productImage=productImage}}
+				{{/each}}
+			</div>
+		</div>
+	</section>
+</template>

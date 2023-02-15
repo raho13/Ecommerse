@@ -1,0 +1,19 @@
+<template name='post'>
+    <div class="col-md-6 col-lg-4 col-xl-3">
+        <div id="product-2" class="single-product"
+            style="background: url( {{getImage}}) no-repeat center;"
+            >
+            <div class="part-1">
+                <ul>
+                    <li><a href="#"><i class="bi bi-cart4"></i></a></li>
+                    <li class="favorite"><a href="#"><i class="bi bi-suit-heart-fill"></i></a></li>
+                   
+                </ul>
+            </div>
+            <div class="part-2">
+                <h3 class="product-title">{{productName}}</h3>
+                <h4 class="product-price">${{productPrice}}</h4>
+            </div>
+        </div>
+    </div>
+</template>
